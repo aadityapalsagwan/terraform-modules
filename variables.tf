@@ -12,3 +12,8 @@ variable "name" {
   description = "EC2 Name"
   type        = string
 }
+
+variable "key_name" {
+  description = "EC2 Key Pair Name"
+  type        = string
+}
